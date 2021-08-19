@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 19, 2021 at 06:17 PM
+-- Generation Time: Aug 19, 2021 at 08:10 PM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.4.21
 
@@ -163,7 +163,7 @@ CREATE TABLE `Songs` (
 
 INSERT INTO `Songs` (`id`, `title`, `artist`, `album`, `genre`, `duration`, `path`, `albumOrder`, `plays`) VALUES
 (1, 'happiness', 3, 1, 6, '4:22', 'assets/music/bensound-happiness.mp3', 1, 23),
-(2, 'jazzy frenchy', 5, 2, 1, '1:45', 'assets/music/bensound-jazzyfrenchy.mp3', 1, 17),
+(2, 'jazzy frenchy', 5, 2, 1, '1:45', 'assets/music/bensound-jazzyfrenchy.mp3', 1, 18),
 (3, 'little idea', 2, 4, 1, '2:49', 'assets/music/bensound-littleidea.mp3', 1, 23),
 (4, 'funky element', 1, 5, 3, '3:09', 'assets/music/bensound-funkyelement.mp3', 1, 14),
 (5, 'energy', 4, 3, 2, '3:00', 'assets/music/bensound-energy.mp3', 1, 21),
@@ -172,7 +172,10 @@ INSERT INTO `Songs` (`id`, `title`, `artist`, `album`, `genre`, `duration`, `pat
 (8, 'novermber', 1, 5, 3, '3:00', 'assets/music/bensound-november.mp3', 2, 17),
 (9, 'pop dance', 5, 2, 1, '3:09', 'assets/music/bensound-popdance.mp3', 2, 17),
 (10, 'tomorrow', 3, 1, 6, '2:40', 'assets/music/bensound-tomorrow.mp3', 3, 21),
-(11, 'Condo', 1, 5, 3, '2:47', 'assets/music/Afro-B-Condo.mp3', 2, 39);
+(11, 'Condo', 1, 5, 3, '2:47', 'assets/music/Afro-B-Condo.mp3', 2, 39),
+(15, 'fine wine and henassy', 1, 5, 3, '3:12', 'assets/music/Fine-Wine-&-Hennessy.mp3', 4, 1),
+(16, 'C\'est Cuit', 3, 1, 6, '2:37', 'assets/music/Cest-Cuit.mp3', 4, 1),
+(17, 'Oh My Gawd', 3, 1, 6, '2:59', 'assets/music/Oh-My-Gawd.mp3', 5, 1);
 
 -- --------------------------------------------------------
 
@@ -283,7 +286,7 @@ ALTER TABLE `playlistSongs`
 -- AUTO_INCREMENT for table `Songs`
 --
 ALTER TABLE `Songs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `users`
